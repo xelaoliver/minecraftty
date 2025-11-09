@@ -16,10 +16,6 @@ ESCAPE = "\033[0m"
 
 print("\033[?25l", end="") # hide cursor
 
-system("cls")
-
-input("masaki@weebook:~$ ")
-
 while 1:
     # output buffer
     screenBuffer = []
@@ -52,3 +48,4 @@ while 1:
         print(screenBuffer[y])
         
     sleep(.003)
+
